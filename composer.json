@@ -1,0 +1,19 @@
+{
+    "name": "test-coverege",
+    "require": {
+        "phpunit/phpunit": "3.7.1",
+        "php": ">=5.3.0"
+    },
+    "minimum-stability": "alpha",
+    "authors":[
+        {
+            "name":"Ramon Barros",
+            "email": "rbarros_@hotmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": { 
+            "": "src/" 
+        }
+    }
+}
